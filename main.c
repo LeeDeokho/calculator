@@ -27,6 +27,11 @@ int main(int argc, char* argv[])
 		case '/':
 			result = div(number1, number2);
 			break;
+
+        default :
+        // 도형님, 상혁님, 희범님 짱 잘생김
+        // 가림님 짱 예쁨
+            break;
 	}
 	
 	printf("result is %d.\n", result);
