@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
  
 int add(int, int);
 int sub(int, int);
@@ -39,10 +39,10 @@ int main(int argc, char* argv[])
 	return 0;
 }
  
-int add(int number1, int number2)
+int add(int number1, int number2) // add two numbers
 {
-	//TODO implementation
-	return 0;
+	return number1 + number2;
+	
 }
  
 int sub(int number1, int number2)
